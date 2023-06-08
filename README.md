@@ -4,7 +4,7 @@
 <b>Discipline | <b>Chemical Engineering
 :--|:--|
 <b> Lab | <b> Engineering Physics
-<b> Experiment|     <b>  1. Newton's ring experiment: to determine the wavelength of light
+<b> Experiment|     <b> Newton's ring experiment: to determine the wavelength of light
 
 ### About the Experiment 
 
