@@ -1,0 +1,831 @@
+
+/home/runner/work/exp-newtons-ring-experiment-iitb/exp-newtons-ring-experiment-iitb/experiment/simulation/js/activity1.js
+    8:14   warning  'Pannel' is not defined                                no-undef
+   14:10   warning  'start_act1' is defined but never used                 no-unused-vars
+   21:10   warning  'move_to_activity3' is defined but never used          no-unused-vars
+   24:5    warning  'activity3' is not defined                             no-undef
+   33:5    warning  'global_score' is assigned a value but never used      no-unused-vars
+   34:5    warning  'a1_panel' is defined but never used                   no-unused-vars
+   35:5    warning  'all_text_content' is assigned a value but never used  no-unused-vars
+   36:5    warning  'canvas_box_scale' is already defined                  no-redeclare
+   36:5    warning  'canvas_box_scale' is assigned a value but never used  no-unused-vars
+   39:5    warning  'a1_scene' is defined but never used                   no-unused-vars
+   46:5    warning  'display_score' is defined but never used              no-unused-vars
+   47:5    warning  'timer1' is assigned a value but never used            no-unused-vars
+   62:17   warning  'Scene' is not defined                                 no-undef
+   67:27   warning  'bootstrap' is not defined                             no-undef
+  105:18   warning  'Chemistry' is not defined                             no-undef
+  105:42   warning  'circular_glass' is not defined                        no-undef
+  105:62   warning  'Chemistry' is not defined                             no-undef
+  108:9    warning  'sq' is already defined                                no-redeclare
+  108:18   warning  'Chemistry' is not defined                             no-undef
+  108:42   warning  'convex_lens' is not defined                           no-undef
+  108:59   warning  'Chemistry' is not defined                             no-undef
+  111:9    warning  'sq' is already defined                                no-redeclare
+  111:18   warning  'Chemistry' is not defined                             no-undef
+  111:42   warning  'light' is not defined                                 no-undef
+  111:53   warning  'Chemistry' is not defined                             no-undef
+  114:9    warning  'sq' is already defined                                no-redeclare
+  114:18   warning  'Chemistry' is not defined                             no-undef
+  114:42   warning  'plano_convex' is not defined                          no-undef
+  114:60   warning  'Chemistry' is not defined                             no-undef
+  117:9    warning  'sq' is already defined                                no-redeclare
+  117:18   warning  'Chemistry' is not defined                             no-undef
+  117:42   warning  'microscope' is not defined                            no-undef
+  117:58   warning  'Chemistry' is not defined                             no-undef
+  145:25   warning  'Chemistry' is not defined                             no-undef
+  145:50   warning  'Chemistry' is not defined                             no-undef
+  156:10   warning  'circular_glass' is not defined                        no-undef
+  156:26   warning  'circular_glass' is not defined                        no-undef
+  157:10   warning  'convex_lens' is not defined                           no-undef
+  157:23   warning  'convex_lens' is not defined                           no-undef
+  158:10   warning  'light' is not defined                                 no-undef
+  158:17   warning  'light' is not defined                                 no-undef
+  159:10   warning  'plano_convex' is not defined                          no-undef
+  159:24   warning  'plano_convex' is not defined                          no-undef
+  160:10   warning  'microscope' is not defined                            no-undef
+  160:22   warning  'microscope' is not defined                            no-undef
+  163:13   warning  'Chemistry' is not defined                             no-undef
+  163:54   warning  'Chemistry' is not defined                             no-undef
+  164:13   warning  'Chemistry' is not defined                             no-undef
+  164:51   warning  'Chemistry' is not defined                             no-undef
+  165:13   warning  'Chemistry' is not defined                             no-undef
+  165:66   warning  'Chemistry' is not defined                             no-undef
+  166:13   warning  'Chemistry' is not defined                             no-undef
+  166:57   warning  'Chemistry' is not defined                             no-undef
+  167:13   warning  'Chemistry' is not defined                             no-undef
+  167:50   warning  'Chemistry' is not defined                             no-undef
+  177:12   warning  Unexpected constant condition                          no-constant-condition
+  199:49   warning  'Chemistry' is not defined                             no-undef
+  202:39   warning  'bootstrap' is not defined                             no-undef
+  234:30   warning  'Chemistry' is not defined                             no-undef
+  234:73   warning  'Chemistry' is not defined                             no-undef
+  255:13   warning  'bsOffcanvas' is already defined                       no-redeclare
+  255:31   warning  'bootstrap' is not defined                             no-undef
+  257:30   warning  'Chemistry' is not defined                             no-undef
+  257:118  warning  'Chemistry' is not defined                             no-undef
+  281:24   warning  'activity3' is not defined                             no-undef
+
+/home/runner/work/exp-newtons-ring-experiment-iitb/exp-newtons-ring-experiment-iitb/experiment/simulation/js/activity2.js
+   54:10   warning  'activity2' is defined but never used        no-unused-vars
+   55:5    warning  'pp' is not defined                          no-undef
+   56:5    warning  'pp' is not defined                          no-undef
+   57:5    warning  'pp' is not defined                          no-undef
+   58:5    warning  'pp' is not defined                          no-undef
+   59:5    warning  'pp' is not defined                          no-undef
+   60:5    warning  'pp' is not defined                          no-undef
+   66:5    warning  'pp' is not defined                          no-undef
+   70:5    warning  'pp' is not defined                          no-undef
+   71:5    warning  'pp' is not defined                          no-undef
+   72:5    warning  'pp' is not defined                          no-undef
+   83:18   warning  'Scene_Canvas' is not defined                no-undef
+   89:5    warning  'MathJax' is not defined                     no-undef
+  129:5    warning  'lscale' is not defined                      no-undef
+  148:25   warning  'Chemistry' is not defined                   no-undef
+  148:49   warning  'bench' is not defined                       no-undef
+  148:60   warning  'Chemistry' is not defined                   no-undef
+  149:26   warning  'Chemistry' is not defined                   no-undef
+  149:50   warning  'holder' is not defined                      no-undef
+  149:62   warning  'Chemistry' is not defined                   no-undef
+  150:24   warning  'Chemistry' is not defined                   no-undef
+  150:48   warning  'lens' is not defined                        no-undef
+  150:58   warning  'Chemistry' is not defined                   no-undef
+  160:31   warning  'Chemistry' is not defined                   no-undef
+  160:55   warning  'dark' is not defined                        no-undef
+  160:65   warning  'Chemistry' is not defined                   no-undef
+  165:25   warning  'data' is not defined                        no-undef
+  166:16   warning  'data' is not defined                        no-undef
+  169:19   warning  'Chemistry' is not defined                   no-undef
+  169:49   warning  'selected_ring_color' is not defined         no-undef
+  169:74   warning  'Chemistry' is not defined                   no-undef
+  169:114  warning  'lscale' is not defined                      no-undef
+  169:152  warning  'lscale' is not defined                      no-undef
+  170:26   warning  'Chemistry' is not defined                   no-undef
+  170:50   warning  'mscope' is not defined                      no-undef
+  170:62   warning  'Chemistry' is not defined                   no-undef
+  170:102  warning  'lscale' is not defined                      no-undef
+  170:136  warning  'lscale' is not defined                      no-undef
+  171:22   warning  'Chemistry' is not defined                   no-undef
+  171:67   warning  'lscale' is not defined                      no-undef
+  171:106  warning  'lscale' is not defined                      no-undef
+  172:22   warning  'Chemistry' is not defined                   no-undef
+  172:61   warning  'lscale' is not defined                      no-undef
+  172:103  warning  'lscale' is not defined                      no-undef
+  231:16   warning  'user_readings' is not defined               no-undef
+  232:15   warning  'Table' is not defined                       no-undef
+  234:5    warning  'pp' is not defined                          no-undef
+  237:10   warning  'add_readings' is defined but never used     no-unused-vars
+  242:13   warning  'user_readings' is not defined               no-undef
+  243:13   warning  'user_readings' is not defined               no-undef
+  244:13   warning  'user_readings' is not defined               no-undef
+  251:13   warning  'user_readings' is not defined               no-undef
+  252:13   warning  'user_readings' is not defined               no-undef
+  253:13   warning  'user_readings' is not defined               no-undef
+  254:29   warning  'user_readings' is not defined               no-undef
+  254:75   warning  'user_readings' is not defined               no-undef
+  255:33   warning  'user_readings' is not defined               no-undef
+  255:79   warning  'user_readings' is not defined               no-undef
+  256:13   warning  Unnecessary semicolon                        no-extra-semi
+  267:9    warning  'pp' is not defined                          no-undef
+  271:10   warning  'delete_readings' is defined but never used  no-unused-vars
+  274:13   warning  'user_readings' is not defined               no-undef
+  275:13   warning  'user_readings' is not defined               no-undef
+  283:13   warning  'user_readings' is not defined               no-undef
+  284:13   warning  'user_readings' is not defined               no-undef
+  285:13   warning  'user_readings' is not defined               no-undef
+  291:13   warning  'user_readings' is not defined               no-undef
+  292:13   warning  'user_readings' is not defined               no-undef
+  293:13   warning  'user_readings' is not defined               no-undef
+  300:13   warning  'user_readings' is not defined               no-undef
+  301:13   warning  'user_readings' is not defined               no-undef
+  313:27   warning  'bootstrap' is not defined                   no-undef
+  317:27   warning  'bootstrap' is not defined                   no-undef
+  320:10   warning  'move_to_act4' is defined but never used     no-unused-vars
+  321:5    warning  'user_data' is not defined                   no-undef
+  321:17   warning  'data' is not defined                        no-undef
+  323:9    warning  'user_data' is not defined                   no-undef
+  323:38   warning  'user_readings' is not defined               no-undef
+  324:9    warning  'user_data' is not defined                   no-undef
+  324:36   warning  'user_readings' is not defined               no-undef
+  324:68   warning  'user_readings' is not defined               no-undef
+  325:9    warning  'user_data' is not defined                   no-undef
+  325:36   warning  'user_readings' is not defined               no-undef
+  325:68   warning  'user_readings' is not defined               no-undef
+  327:5    warning  'activity4' is not defined                   no-undef
+  329:10   warning  'fill_test_val' is defined but never used    no-unused-vars
+  331:9    warning  'user_readings' is not defined               no-undef
+  332:9    warning  'user_readings' is not defined               no-undef
+  333:9    warning  'user_readings' is not defined               no-undef
+  334:9    warning  'user_readings' is not defined               no-undef
+  335:9    warning  'user_readings' is not defined               no-undef
+  340:9    warning  'user_data' is not defined                   no-undef
+  341:9    warning  'user_data' is not defined                   no-undef
+  341:27   warning  'auto_fill_data' is not defined              no-undef
+  342:9    warning  'user_data' is not defined                   no-undef
+  342:27   warning  'auto_fill_data' is not defined              no-undef
+  343:9    warning  'user_data' is not defined                   no-undef
+  343:27   warning  'auto_fill_data' is not defined              no-undef
+  344:9    warning  'user_data' is not defined                   no-undef
+  344:27   warning  'auto_fill_data' is not defined              no-undef
+  345:9    warning  'user_data' is not defined                   no-undef
+  345:27   warning  'auto_fill_data' is not defined              no-undef
+  346:9    warning  'user_data' is not defined                   no-undef
+  346:27   warning  'auto_fill_data' is not defined              no-undef
+  347:9    warning  'user_data' is not defined                   no-undef
+  347:27   warning  'auto_fill_data' is not defined              no-undef
+  348:9    warning  'user_data' is not defined                   no-undef
+  348:27   warning  'auto_fill_data' is not defined              no-undef
+  349:9    warning  'user_data' is not defined                   no-undef
+  349:27   warning  'auto_fill_data' is not defined              no-undef
+  350:9    warning  'user_data' is not defined                   no-undef
+  350:27   warning  'auto_fill_data' is not defined              no-undef
+  352:5    warning  'activity4' is not defined                   no-undef
+
+/home/runner/work/exp-newtons-ring-experiment-iitb/exp-newtons-ring-experiment-iitb/experiment/simulation/js/activity2_new.js
+  18:5  warning  'my_context2' is assigned a value but never used  no-unused-vars
+  19:5  warning  'my_context3' is assigned a value but never used  no-unused-vars
+  21:5  warning  'pp' is not defined                               no-undef
+  22:5  warning  'pp' is not defined                               no-undef
+  23:5  warning  'pp' is not defined                               no-undef
+  24:5  warning  'pp' is not defined                               no-undef
+
+/home/runner/work/exp-newtons-ring-experiment-iitb/exp-newtons-ring-experiment-iitb/experiment/simulation/js/activity2_test(1).js
+   45:5    warning  'pp' is not defined                            no-undef
+   46:5    warning  'pp' is not defined                            no-undef
+   47:5    warning  'pp' is not defined                            no-undef
+   48:5    warning  'pp' is not defined                            no-undef
+   49:5    warning  'pp' is not defined                            no-undef
+   50:5    warning  'pp' is not defined                            no-undef
+   57:18   warning  'Scene_Canvas' is not defined                  no-undef
+  101:5    warning  'lscale' is not defined                        no-undef
+  120:25   warning  'Chemistry' is not defined                     no-undef
+  120:49   warning  'bench' is not defined                         no-undef
+  120:60   warning  'Chemistry' is not defined                     no-undef
+  121:26   warning  'Chemistry' is not defined                     no-undef
+  121:50   warning  'holder' is not defined                        no-undef
+  121:62   warning  'Chemistry' is not defined                     no-undef
+  122:24   warning  'Chemistry' is not defined                     no-undef
+  122:48   warning  'lens' is not defined                          no-undef
+  122:58   warning  'Chemistry' is not defined                     no-undef
+  132:31   warning  'Chemistry' is not defined                     no-undef
+  132:55   warning  'dark' is not defined                          no-undef
+  132:65   warning  'Chemistry' is not defined                     no-undef
+  137:25   warning  'data' is not defined                          no-undef
+  138:16   warning  'data' is not defined                          no-undef
+  141:19   warning  'Chemistry' is not defined                     no-undef
+  141:63   warning  'Chemistry' is not defined                     no-undef
+  141:103  warning  'lscale' is not defined                        no-undef
+  141:141  warning  'lscale' is not defined                        no-undef
+  142:26   warning  'Chemistry' is not defined                     no-undef
+  142:50   warning  'mscope' is not defined                        no-undef
+  142:62   warning  'Chemistry' is not defined                     no-undef
+  142:102  warning  'lscale' is not defined                        no-undef
+  142:136  warning  'lscale' is not defined                        no-undef
+  143:22   warning  'Chemistry' is not defined                     no-undef
+  143:67   warning  'lscale' is not defined                        no-undef
+  143:106  warning  'lscale' is not defined                        no-undef
+  144:22   warning  'Chemistry' is not defined                     no-undef
+  144:61   warning  'lscale' is not defined                        no-undef
+  144:103  warning  'lscale' is not defined                        no-undef
+  186:10   warning  'add_readings_text' is defined but never used  no-unused-vars
+
+/home/runner/work/exp-newtons-ring-experiment-iitb/exp-newtons-ring-experiment-iitb/experiment/simulation/js/activity2_test.js
+   45:5    warning  'pp' is not defined                            no-undef
+   46:5    warning  'pp' is not defined                            no-undef
+   47:5    warning  'pp' is not defined                            no-undef
+   48:5    warning  'pp' is not defined                            no-undef
+   49:5    warning  'pp' is not defined                            no-undef
+   50:5    warning  'pp' is not defined                            no-undef
+   57:18   warning  'Scene_Canvas' is not defined                  no-undef
+  101:5    warning  'lscale' is not defined                        no-undef
+  120:25   warning  'Chemistry' is not defined                     no-undef
+  120:49   warning  'bench' is not defined                         no-undef
+  120:60   warning  'Chemistry' is not defined                     no-undef
+  121:26   warning  'Chemistry' is not defined                     no-undef
+  121:50   warning  'holder' is not defined                        no-undef
+  121:62   warning  'Chemistry' is not defined                     no-undef
+  122:24   warning  'Chemistry' is not defined                     no-undef
+  122:48   warning  'lens' is not defined                          no-undef
+  122:58   warning  'Chemistry' is not defined                     no-undef
+  132:31   warning  'Chemistry' is not defined                     no-undef
+  132:55   warning  'dark' is not defined                          no-undef
+  132:65   warning  'Chemistry' is not defined                     no-undef
+  137:25   warning  'data' is not defined                          no-undef
+  138:16   warning  'data' is not defined                          no-undef
+  141:19   warning  'Chemistry' is not defined                     no-undef
+  141:63   warning  'Chemistry' is not defined                     no-undef
+  141:103  warning  'lscale' is not defined                        no-undef
+  141:141  warning  'lscale' is not defined                        no-undef
+  142:26   warning  'Chemistry' is not defined                     no-undef
+  142:50   warning  'mscope' is not defined                        no-undef
+  142:62   warning  'Chemistry' is not defined                     no-undef
+  142:102  warning  'lscale' is not defined                        no-undef
+  142:136  warning  'lscale' is not defined                        no-undef
+  143:22   warning  'Chemistry' is not defined                     no-undef
+  143:67   warning  'lscale' is not defined                        no-undef
+  143:106  warning  'lscale' is not defined                        no-undef
+  144:22   warning  'Chemistry' is not defined                     no-undef
+  144:61   warning  'lscale' is not defined                        no-undef
+  144:103  warning  'lscale' is not defined                        no-undef
+  186:10   warning  'add_readings_text' is defined but never used  no-unused-vars
+
+/home/runner/work/exp-newtons-ring-experiment-iitb/exp-newtons-ring-experiment-iitb/experiment/simulation/js/activity3.js
+    1:5   warning  'show_opp' is assigned a value but never used  no-unused-vars
+    2:10  warning  'activity3' is defined but never used          no-unused-vars
+    3:5   warning  'pp' is not defined                            no-undef
+    4:5   warning  'pp' is not defined                            no-undef
+    5:5   warning  'pp' is not defined                            no-undef
+    6:5   warning  'pp' is not defined                            no-undef
+   71:5   warning  'pp' is not defined                            no-undef
+   80:25  warning  'colors' is not defined                        no-undef
+   81:54  warning  'colors' is not defined                        no-undef
+   81:71  warning  'colors' is not defined                        no-undef
+   84:10  warning  'set_color' is defined but never used          no-unused-vars
+   88:9   warning  'selected_color_lambda' is not defined         no-undef
+   89:13  warning  'colors' is not defined                        no-undef
+   90:13  warning  'selected_ring_color' is not defined           no-undef
+   92:18  warning  'colors' is not defined                        no-undef
+   93:13  warning  'selected_ring_color' is not defined           no-undef
+   95:18  warning  'colors' is not defined                        no-undef
+   96:13  warning  'selected_ring_color' is not defined           no-undef
+   98:18  warning  'colors' is not defined                        no-undef
+   99:13  warning  'selected_ring_color' is not defined           no-undef
+  101:18  warning  'colors' is not defined                        no-undef
+  102:13  warning  'selected_ring_color' is not defined           no-undef
+  104:18  warning  'colors' is not defined                        no-undef
+  105:13  warning  'selected_ring_color' is not defined           no-undef
+  107:18  warning  'colors' is not defined                        no-undef
+  108:13  warning  'selected_ring_color' is not defined           no-undef
+  110:21  warning  'selected_ring_color' is not defined           no-undef
+  113:29  warning  'radius' is not defined                        no-undef
+  114:46  warning  'radius' is not defined                        no-undef
+  114:60  warning  'radius' is not defined                        no-undef
+  121:10  warning  'set_radius' is defined but never used         no-unused-vars
+  125:9   warning  'selected_r' is not defined                    no-undef
+  131:5   warning  'calculate_data' is not defined                no-undef
+  133:10  warning  'set_n' is defined but never used              no-unused-vars
+  142:5   warning  'selected_n' is not defined                    no-undef
+  143:29  warning  'selected_n' is not defined                    no-undef
+  144:25  warning  'data' is not defined                          no-undef
+  145:13  warning  'selected_n' is not defined                    no-undef
+  145:27  warning  'data' is not defined                          no-undef
+  146:28  warning  'data' is not defined                          no-undef
+  147:26  warning  'data' is not defined                          no-undef
+  148:25  warning  'data' is not defined                          no-undef
+  149:25  warning  'data' is not defined                          no-undef
+  150:25  warning  'data' is not defined                          no-undef
+  151:25  warning  'data' is not defined                          no-undef
+  157:10  warning  'go_to_act2' is defined but never used         no-unused-vars
+  158:5   warning  'activity2' is not defined                     no-undef
+
+/home/runner/work/exp-newtons-ring-experiment-iitb/exp-newtons-ring-experiment-iitb/experiment/simulation/js/activity4.js
+   1:10   warning  'activity4' is defined but never used      no-unused-vars
+   2:5    warning  'pp' is not defined                        no-undef
+   3:5    warning  'pp' is not defined                        no-undef
+   4:5    warning  'pp' is not defined                        no-undef
+   5:5    warning  'pp' is not defined                        no-undef
+   7:27   warning  'user_data' is not defined                 no-undef
+   7:60   warning  'user_data' is not defined                 no-undef
+   7:100  warning  'user_data' is not defined                 no-undef
+   7:126  warning  'user_data' is not defined                 no-undef
+   8:23   warning  'Table2' is not defined                    no-undef
+   8:101  warning  'selected_color_lambda' is not defined     no-undef
+   8:134  warning  'selected_r' is not defined                no-undef
+   9:5    warning  'pp' is not defined                        no-undef
+  12:10   warning  'verify_bright' is defined but never used  no-unused-vars
+  14:10   warning  'verify_values' is not defined             no-undef
+  14:48   warning  'user_data' is not defined                 no-undef
+  22:32   warning  'user_data' is not defined                 no-undef
+  23:32   warning  'user_data' is not defined                 no-undef
+  24:32   warning  'user_data' is not defined                 no-undef
+  25:32   warning  'user_data' is not defined                 no-undef
+  26:33   warning  'user_data' is not defined                 no-undef
+  29:5    warning  'pp' is not defined                        no-undef
+  31:23   warning  'Table2' is not defined                    no-undef
+  31:105  warning  'selected_color_lambda' is not defined     no-undef
+  31:138  warning  'selected_r' is not defined                no-undef
+  32:5    warning  'pp' is not defined                        no-undef
+  34:5    warning  'pp' is not defined                        no-undef
+  35:27   warning  'bootstrap' is not defined                 no-undef
+  38:5    warning  'pp' is not defined                        no-undef
+
+/home/runner/work/exp-newtons-ring-experiment-iitb/exp-newtons-ring-experiment-iitb/experiment/simulation/js/activity5.js
+    8:10  warning  'activity5' is defined but never used      no-unused-vars
+    9:5   warning  'pp' is not defined                        no-undef
+   10:5   warning  'pp' is not defined                        no-undef
+   11:5   warning  'pp' is not defined                        no-undef
+   12:5   warning  'pp' is not defined                        no-undef
+   17:5   warning  'pp' is not defined                        no-undef
+   18:5   warning  'pp' is not defined                        no-undef
+   19:5   warning  'pp' is not defined                        no-undef
+   20:5   warning  'pp' is not defined                        no-undef
+   25:25  warning  'user_data' is not defined                 no-undef
+   26:20  warning  'user_data' is not defined                 no-undef
+   27:35  warning  'user_data' is not defined                 no-undef
+   28:36  warning  'data' is not defined                      no-undef
+   43:21  warning  'Chart' is not defined                     no-undef
+  117:11  warning  'regression_linear' is not defined         no-undef
+  126:5   warning  'pp' is not defined                        no-undef
+  130:40  warning  'selected_r' is not defined                no-undef
+  136:5   warning  'pp' is not defined                        no-undef
+  137:5   warning  'MathJax' is not defined                   no-undef
+  139:10  warning  'verify_lambda' is defined but never used  no-unused-vars
+  141:31  warning  'selected_r' is not defined                no-undef
+  143:10  warning  'verify_values' is not defined             no-undef
+  146:5   warning  'pp' is not defined                        no-undef
+  147:26  warning  'selected_color_lambda' is not defined     no-undef
+  153:5   warning  'pp' is not defined                        no-undef
+  156:36  warning  'selected_ring_color' is not defined       no-undef
+
+/home/runner/work/exp-newtons-ring-experiment-iitb/exp-newtons-ring-experiment-iitb/experiment/simulation/js/activity6.js
+    1:10  warning  'activity6' is defined but never used           no-unused-vars
+    2:5   warning  'pp' is not defined                             no-undef
+    3:5   warning  'pp' is not defined                             no-undef
+    4:5   warning  'pp' is not defined                             no-undef
+   11:34  warning  'Ma' is not defined                             no-undef
+   14:34  warning  'Mc' is not defined                             no-undef
+   22:34  warning  'MW1' is not defined                            no-undef
+   25:34  warning  'MW2' is not defined                            no-undef
+   33:34  warning  'AA' is not defined                             no-undef
+   36:34  warning  'AB' is not defined                             no-undef
+   39:34  warning  'AC' is not defined                             no-undef
+   47:34  warning  'slope1' is not defined                         no-undef
+   50:34  warning  'slope2' is not defined                         no-undef
+   55:5   warning  'pp' is not defined                             no-undef
+   62:24  warning  'Table2' is not defined                         no-undef
+   69:24  warning  'Table2' is not defined                         no-undef
+   76:24  warning  'Table2' is not defined                         no-undef
+   77:5   warning  'pp' is not defined                             no-undef
+   78:5   warning  'pp' is not defined                             no-undef
+   79:5   warning  'pp' is not defined                             no-undef
+   84:5   warning  'pp' is not defined                             no-undef
+   85:17  warning  'mass_comp1' is not defined                     no-undef
+   85:29  warning  'mass_comp2' is not defined                     no-undef
+   85:41  warning  'moles_comp1' is not defined                    no-undef
+   85:54  warning  'moles_comp2' is not defined                    no-undef
+   85:67  warning  'moles_fraction_comp1' is not defined           no-undef
+   85:89  warning  'moles_fraction_comp2' is not defined           no-undef
+   87:10  warning  'verify_act6_inputs' is defined but never used  no-unused-vars
+   94:10  warning  'verify_values' is not defined                  no-undef
+   94:48  warning  'mass_comp1' is not defined                     no-undef
+   98:10  warning  'verify_values' is not defined                  no-undef
+   98:48  warning  'mass_comp2' is not defined                     no-undef
+  102:10  warning  'verify_values' is not defined                  no-undef
+  102:48  warning  'moles_comp1' is not defined                    no-undef
+  106:10  warning  'verify_values' is not defined                  no-undef
+  106:48  warning  'moles_comp2' is not defined                    no-undef
+  110:10  warning  'verify_values' is not defined                  no-undef
+  110:48  warning  'moles_fraction_comp1' is not defined           no-undef
+  114:10  warning  'verify_values' is not defined                  no-undef
+  114:48  warning  'moles_fraction_comp2' is not defined           no-undef
+  119:5   warning  'activity7' is not defined                      no-undef
+
+/home/runner/work/exp-newtons-ring-experiment-iitb/exp-newtons-ring-experiment-iitb/experiment/simulation/js/activity7.js
+   2:10   warning  'activity7' is defined but never used    no-unused-vars
+   3:5    warning  'pp' is not defined                      no-undef
+   4:5    warning  'pp' is not defined                      no-undef
+   5:5    warning  'pp' is not defined                      no-undef
+   7:30   warning  'composition' is not defined             no-undef
+   7:42   warning  'selected_index' is not defined          no-undef
+   7:59   warning  'calculated_table' is not defined        no-undef
+   7:76   warning  'selected_index' is not defined          no-undef
+   7:107  warning  'calculated_table' is not defined        no-undef
+   7:124  warning  'selected_index' is not defined          no-undef
+   7:155  warning  'calculated_table' is not defined        no-undef
+   7:172  warning  'selected_index' is not defined          no-undef
+   8:24   warning  'Table' is not defined                   no-undef
+   9:5    warning  'pp' is not defined                      no-undef
+  14:19   warning  'A1' is not defined                      no-undef
+  14:31   warning  'A2' is not defined                      no-undef
+  15:19   warning  'B1' is not defined                      no-undef
+  15:31   warning  'B2' is not defined                      no-undef
+  16:19   warning  'C1' is not defined                      no-undef
+  16:31   warning  'C2' is not defined                      no-undef
+  17:18   warning  'P' is not defined                       no-undef
+  26:5    warning  'pp' is not defined                      no-undef
+  28:10   warning  'verify_act7' is defined but never used  no-unused-vars
+  33:10   warning  'verify_values' is not defined           no-undef
+  33:48   warning  'calculated_table' is not defined        no-undef
+  33:65   warning  'selected_index' is not defined          no-undef
+  37:10   warning  'verify_values' is not defined           no-undef
+  37:48   warning  'calculated_table' is not defined        no-undef
+  37:65   warning  'selected_index' is not defined          no-undef
+  41:10   warning  'verify_values' is not defined           no-undef
+  41:48   warning  'calculated_table' is not defined        no-undef
+  41:65   warning  'selected_index' is not defined          no-undef
+  45:10   warning  'verify_values' is not defined           no-undef
+  45:48   warning  'calculated_table' is not defined        no-undef
+  45:65   warning  'selected_index' is not defined          no-undef
+  53:5    warning  'pp' is not defined                      no-undef
+  54:5    warning  'pp' is not defined                      no-undef
+  55:5    warning  'pp' is not defined                      no-undef
+  58:25   warning  'calculated_table' is not defined        no-undef
+  60:34   warning  'composition' is not defined             no-undef
+  61:29   warning  'calculated_table' is not defined        no-undef
+  62:42   warning  'calculated_table' is not defined        no-undef
+  65:24   warning  'Table' is not defined                   no-undef
+  66:5    warning  'pp' is not defined                      no-undef
+  69:10   warning  'selected_index' is not defined          no-undef
+  70:5    warning  'pp' is not defined                      no-undef
+  71:5    warning  'pp' is not defined                      no-undef
+
+/home/runner/work/exp-newtons-ring-experiment-iitb/exp-newtons-ring-experiment-iitb/experiment/simulation/js/activity8.js
+   1:10  warning  'activity8' is defined but never used  no-unused-vars
+   2:5   warning  'pp' is not defined                    no-undef
+   3:5   warning  'pp' is not defined                    no-undef
+   8:5   warning  'pp' is not defined                    no-undef
+   9:5   warning  'pp' is not defined                    no-undef
+  14:5   warning  'label' is not defined                 no-undef
+  15:5   warning  'graph_data' is not defined            no-undef
+  16:25  warning  'calculated_table' is not defined      no-undef
+  17:9   warning  'label' is not defined                 no-undef
+  17:20  warning  'calculated_table' is not defined      no-undef
+  18:9   warning  'graph_data' is not defined            no-undef
+  18:34  warning  'calculated_table' is not defined      no-undef
+  33:21  warning  'Chart' is not defined                 no-undef
+  36:21  warning  'label' is not defined                 no-undef
+  40:27  warning  'graph_data' is not defined            no-undef
+  52:27  warning  'graph_data1' is not defined           no-undef
+  85:30  warning  'selected_name' is not defined         no-undef
+  85:61  warning  'composition' is not defined           no-undef
+  85:73  warning  'selected_index' is not defined        no-undef
+  94:5   warning  'pol1_data' is not defined             no-undef
+  94:17  warning  'regression_linear' is not defined     no-undef
+  94:35  warning  'label' is not defined                 no-undef
+  94:42  warning  'graph_data' is not defined            no-undef
+  95:5   warning  'graph_data1' is not defined           no-undef
+  97:25  warning  'label' is not defined                 no-undef
+  98:9   warning  'graph_data1' is not defined           no-undef
+  98:26  warning  'pol1_data' is not defined             no-undef
+  98:41  warning  'label' is not defined                 no-undef
+  98:52  warning  'pol1_data' is not defined             no-undef
+
+/home/runner/work/exp-newtons-ring-experiment-iitb/exp-newtons-ring-experiment-iitb/experiment/simulation/js/common.js
+   1:10  warning  'verify_values' is defined but never used                no-unused-vars
+  21:10  warning  'std_deviation' is defined but never used                no-unused-vars
+  26:10  warning  'regression_linear' is defined but never used            no-unused-vars
+  43:10  warning  'ascending_random_array' is defined but never used       no-unused-vars
+  45:12  warning  Unexpected constant condition                            no-constant-condition
+  62:10  warning  'regression_linear_2variable' is defined but never used  no-unused-vars
+
+/home/runner/work/exp-newtons-ring-experiment-iitb/exp-newtons-ring-experiment-iitb/experiment/simulation/js/data.js
+   1:5   warning  'colors' is assigned a value but never used               no-unused-vars
+   2:5   warning  'radius' is assigned a value but never used               no-unused-vars
+   5:5   warning  'selected_n' is assigned a value but never used           no-unused-vars
+  21:33  warning  'std_deviation' is not defined                            no-undef
+  29:33  warning  'std_deviation' is not defined                            no-undef
+  35:5   warning  'user_readings' is assigned a value but never used        no-unused-vars
+  45:5   warning  'user_data' is assigned a value but never used            no-unused-vars
+  46:5   warning  'selected_ring_color' is assigned a value but never used  no-unused-vars
+  47:5   warning  'auto_fill_data' is assigned a value but never used       no-unused-vars
+
+/home/runner/work/exp-newtons-ring-experiment-iitb/exp-newtons-ring-experiment-iitb/experiment/simulation/js/dummy.js
+  2:14  warning  'Pannel' is not defined  no-undef
+
+/home/runner/work/exp-newtons-ring-experiment-iitb/exp-newtons-ring-experiment-iitb/experiment/simulation/js/geomerty.js
+   33:49   warning  'lscale' is not defined          no-undef
+   34:49   warning  'lscale' is not defined          no-undef
+   46:23   warning  'pt1' is defined but never used  no-unused-vars
+   46:28   warning  'pt2' is defined but never used  no-unused-vars
+   46:33   warning  'pt3' is defined but never used  no-unused-vars
+   50:24   warning  'geo' is defined but never used  no-unused-vars
+   69:44   warning  'lscale' is not defined          no-undef
+   69:66   warning  'lscale' is not defined          no-undef
+   69:88   warning  'lscale' is not defined          no-undef
+   82:48   warning  'lscale' is not defined          no-undef
+   83:48   warning  'lscale' is not defined          no-undef
+  108:47   warning  'lscale' is not defined          no-undef
+  108:69   warning  'lscale' is not defined          no-undef
+  109:60   warning  'lscale' is not defined          no-undef
+  109:95   warning  'lscale' is not defined          no-undef
+  131:39   warning  'lscale' is not defined          no-undef
+  131:57   warning  'lscale' is not defined          no-undef
+  132:39   warning  'lscale' is not defined          no-undef
+  132:57   warning  'lscale' is not defined          no-undef
+  181:39   warning  'lscale' is not defined          no-undef
+  181:57   warning  'lscale' is not defined          no-undef
+  182:39   warning  'lscale' is not defined          no-undef
+  182:57   warning  'lscale' is not defined          no-undef
+  225:33   warning  'lscale' is not defined          no-undef
+  226:33   warning  'lscale' is not defined          no-undef
+  274:50   warning  'lscale' is not defined          no-undef
+  274:72   warning  'lscale' is not defined          no-undef
+  279:61   warning  'lscale' is not defined          no-undef
+  279:84   warning  'lscale' is not defined          no-undef
+  279:102  warning  'lscale' is not defined          no-undef
+  279:120  warning  'lscale' is not defined          no-undef
+  293:33   warning  'lscale' is not defined          no-undef
+  294:33   warning  'lscale' is not defined          no-undef
+  295:41   warning  'lscale' is not defined          no-undef
+  295:64   warning  'lscale' is not defined          no-undef
+  295:98   warning  'lscale' is not defined          no-undef
+  295:121  warning  'lscale' is not defined          no-undef
+  296:45   warning  'lscale' is not defined          no-undef
+  296:68   warning  'lscale' is not defined          no-undef
+  296:102  warning  'lscale' is not defined          no-undef
+  296:125  warning  'lscale' is not defined          no-undef
+  323:61   warning  'lscale' is not defined          no-undef
+  323:90   warning  'lscale' is not defined          no-undef
+  324:61   warning  'lscale' is not defined          no-undef
+  324:96   warning  'lscale' is not defined          no-undef
+  325:66   warning  'lscale' is not defined          no-undef
+  325:101  warning  'lscale' is not defined          no-undef
+  326:66   warning  'lscale' is not defined          no-undef
+  326:100  warning  'lscale' is not defined          no-undef
+  327:67   warning  'lscale' is not defined          no-undef
+  327:101  warning  'lscale' is not defined          no-undef
+  328:67   warning  'lscale' is not defined          no-undef
+  328:96   warning  'lscale' is not defined          no-undef
+  329:61   warning  'lscale' is not defined          no-undef
+  329:90   warning  'lscale' is not defined          no-undef
+  346:33   warning  'lscale' is not defined          no-undef
+  347:33   warning  'lscale' is not defined          no-undef
+  376:46   warning  'lscale' is not defined          no-undef
+  382:50   warning  'lscale' is not defined          no-undef
+  382:72   warning  'lscale' is not defined          no-undef
+  411:52   warning  'lscale' is not defined          no-undef
+  411:79   warning  'lscale' is not defined          no-undef
+  413:56   warning  'lscale' is not defined          no-undef
+  413:83   warning  'lscale' is not defined          no-undef
+  450:50   warning  'lscale' is not defined          no-undef
+  450:72   warning  'lscale' is not defined          no-undef
+  456:61   warning  'lscale' is not defined          no-undef
+  456:84   warning  'lscale' is not defined          no-undef
+  456:102  warning  'lscale' is not defined          no-undef
+  456:120  warning  'lscale' is not defined          no-undef
+  470:33   warning  'lscale' is not defined          no-undef
+  471:33   warning  'lscale' is not defined          no-undef
+  472:41   warning  'lscale' is not defined          no-undef
+  472:64   warning  'lscale' is not defined          no-undef
+  472:98   warning  'lscale' is not defined          no-undef
+  472:121  warning  'lscale' is not defined          no-undef
+  473:45   warning  'lscale' is not defined          no-undef
+  473:68   warning  'lscale' is not defined          no-undef
+  473:102  warning  'lscale' is not defined          no-undef
+  473:125  warning  'lscale' is not defined          no-undef
+  502:50   warning  'lscale' is not defined          no-undef
+  502:72   warning  'lscale' is not defined          no-undef
+  507:139  warning  'lscale' is not defined          no-undef
+  507:172  warning  'lscale' is not defined          no-undef
+  507:205  warning  'lscale' is not defined          no-undef
+  507:225  warning  'lscale' is not defined          no-undef
+  528:50   warning  'lscale' is not defined          no-undef
+  528:72   warning  'lscale' is not defined          no-undef
+  533:139  warning  'lscale' is not defined          no-undef
+  533:172  warning  'lscale' is not defined          no-undef
+  533:205  warning  'lscale' is not defined          no-undef
+  533:225  warning  'lscale' is not defined          no-undef
+  555:50   warning  'lscale' is not defined          no-undef
+  555:72   warning  'lscale' is not defined          no-undef
+  560:133  warning  'lscale' is not defined          no-undef
+  560:172  warning  'lscale' is not defined          no-undef
+  560:205  warning  'lscale' is not defined          no-undef
+  560:224  warning  'lscale' is not defined          no-undef
+  584:39   warning  'lscale' is not defined          no-undef
+  584:53   warning  'lscale' is not defined          no-undef
+  585:39   warning  'lscale' is not defined          no-undef
+  585:53   warning  'lscale' is not defined          no-undef
+  586:39   warning  'lscale' is not defined          no-undef
+  586:53   warning  'lscale' is not defined          no-undef
+  587:39   warning  'lscale' is not defined          no-undef
+  587:53   warning  'lscale' is not defined          no-undef
+  594:36   warning  'lscale' is not defined          no-undef
+  594:50   warning  'lscale' is not defined          no-undef
+  594:63   warning  'lscale' is not defined          no-undef
+  605:36   warning  'lscale' is not defined          no-undef
+  605:50   warning  'lscale' is not defined          no-undef
+  605:63   warning  'lscale' is not defined          no-undef
+  632:46   warning  'lscale' is not defined          no-undef
+  637:50   warning  'lscale' is not defined          no-undef
+  637:72   warning  'lscale' is not defined          no-undef
+  659:50   warning  'lscale' is not defined          no-undef
+  659:72   warning  'lscale' is not defined          no-undef
+  663:46   warning  'lscale' is not defined          no-undef
+  664:46   warning  'lscale' is not defined          no-undef
+  664:67   warning  'lscale' is not defined          no-undef
+  665:49   warning  'lscale' is not defined          no-undef
+  702:50   warning  'lscale' is not defined          no-undef
+  702:72   warning  'lscale' is not defined          no-undef
+  718:38   warning  'lscale' is not defined          no-undef
+  718:51   warning  'lscale' is not defined          no-undef
+  720:38   warning  'lscale' is not defined          no-undef
+  722:38   warning  'lscale' is not defined          no-undef
+  722:52   warning  'lscale' is not defined          no-undef
+  756:48   warning  'lscale' is not defined          no-undef
+  756:70   warning  'lscale' is not defined          no-undef
+  756:108  warning  'lscale' is not defined          no-undef
+  818:13   warning  'context' is not defined         no-undef
+  821:13   warning  'context' is not defined         no-undef
+  822:13   warning  'context' is not defined         no-undef
+  822:38   warning  'lscale' is not defined          no-undef
+  822:56   warning  'lscale' is not defined          no-undef
+  823:13   warning  'context' is not defined         no-undef
+  823:38   warning  'lscale' is not defined          no-undef
+  823:56   warning  'lscale' is not defined          no-undef
+  824:13   warning  'context' is not defined         no-undef
+  825:13   warning  'context' is not defined         no-undef
+  826:13   warning  'context' is not defined         no-undef
+
+/home/runner/work/exp-newtons-ring-experiment-iitb/exp-newtons-ring-experiment-iitb/experiment/simulation/js/graph.ob.js
+  1:745  warning  'b' is already defined                  no-redeclare
+  6:115  warning  'drawgraph' is defined but never used   no-unused-vars
+  6:181  warning  'CanvasJS' is not defined               no-undef
+  8:111  warning  'drawgraph2' is defined but never used  no-unused-vars
+  8:214  warning  'CanvasJS' is not defined               no-undef
+
+/home/runner/work/exp-newtons-ring-experiment-iitb/exp-newtons-ring-experiment-iitb/experiment/simulation/js/old_exp_script.js
+  10:5  warning  'context' is not defined  no-undef
+  11:5  warning  'context' is not defined  no-undef
+  12:5  warning  'context' is not defined  no-undef
+  13:5  warning  'context' is not defined  no-undef
+  14:5  warning  'context' is not defined  no-undef
+  15:5  warning  'context' is not defined  no-undef
+  16:5  warning  'context' is not defined  no-undef
+
+/home/runner/work/exp-newtons-ring-experiment-iitb/exp-newtons-ring-experiment-iitb/experiment/simulation/js/pannel.js
+   11:7  warning  'Pannel' is defined but never used  no-unused-vars
+  154:7  warning  'Table2' is defined but never used  no-unused-vars
+
+/home/runner/work/exp-newtons-ring-experiment-iitb/exp-newtons-ring-experiment-iitb/experiment/simulation/js/scene.js
+  11:9    warning  'context' is not defined                  no-undef
+  11:33   warning  'canvas' is not defined                   no-undef
+  11:47   warning  'canvas' is not defined                   no-undef
+  26:7    warning  'Scene_Canvas' is defined but never used  no-unused-vars
+  63:5    warning  'context' is not defined                  no-undef
+  64:9    warning  'grd' is assigned a value but never used  no-unused-vars
+  64:15   warning  'context' is not defined                  no-undef
+  64:44   warning  'canvas' is not defined                   no-undef
+  64:62   warning  'canvas' is not defined                   no-undef
+  64:84   warning  'canvas' is not defined                   no-undef
+  64:102  warning  'canvas' is not defined                   no-undef
+  64:121  warning  'canvas' is not defined                   no-undef
+  72:5    warning  'context' is not defined                  no-undef
+  73:5    warning  'context' is not defined                  no-undef
+  73:28   warning  'canvas' is not defined                   no-undef
+  73:42   warning  'canvas' is not defined                   no-undef
+  74:5    warning  'context' is not defined                  no-undef
+  75:5    warning  'context' is not defined                  no-undef
+  80:9    warning  'grd' is assigned a value but never used  no-unused-vars
+
+/home/runner/work/exp-newtons-ring-experiment-iitb/exp-newtons-ring-experiment-iitb/experiment/simulation/js/test.js
+  2:14  warning  'Pannel' is not defined                     no-undef
+  4:5   warning  'table' is assigned a value but never used  no-unused-vars
+
+/home/runner/work/exp-newtons-ring-experiment-iitb/exp-newtons-ring-experiment-iitb/experiment/simulation/js/text_simulaion.js
+   3:5   warning  'pp' is not defined         no-undef
+   4:5   warning  'pp' is not defined         no-undef
+   5:5   warning  'pp' is not defined         no-undef
+   7:25  warning  'data' is not defined       no-undef
+   8:16  warning  'data' is not defined       no-undef
+  11:5   warning  'pp' is not defined         no-undef
+  12:5   warning  'canvas' is not defined     no-undef
+  12:14  warning  'pp' is not defined         no-undef
+  13:5   warning  'context' is not defined    no-undef
+  13:15  warning  'canvas' is not defined     no-undef
+  14:5   warning  'scene' is not defined      no-undef
+  14:17  warning  'Scene' is not defined      no-undef
+  15:18  warning  'Chemistry' is not defined  no-undef
+  15:58  warning  'canvas' is not defined     no-undef
+  16:25  warning  'Chemistry' is not defined  no-undef
+  16:49  warning  'bench' is not defined      no-undef
+  16:60  warning  'Chemistry' is not defined  no-undef
+  16:97  warning  'canvas' is not defined     no-undef
+  17:26  warning  'Chemistry' is not defined  no-undef
+  17:50  warning  'holder' is not defined     no-undef
+  17:62  warning  'Chemistry' is not defined  no-undef
+  17:99  warning  'canvas' is not defined     no-undef
+  18:24  warning  'Chemistry' is not defined  no-undef
+  18:48  warning  'lens' is not defined       no-undef
+  18:58  warning  'Chemistry' is not defined  no-undef
+  18:95  warning  'canvas' is not defined     no-undef
+  19:5   warning  'scene' is not defined      no-undef
+  20:5   warning  'scene' is not defined      no-undef
+  21:5   warning  'scene' is not defined      no-undef
+  22:5   warning  'scene' is not defined      no-undef
+  42:5   warning  'pp' is not defined         no-undef
+  47:5   warning  'scene' is not defined      no-undef
+  55:5   warning  'scene' is not defined      no-undef
+  61:5   warning  'canvas' is not defined     no-undef
+  62:5   warning  'canvas' is not defined     no-undef
+  62:21  warning  'canvas' is not defined     no-undef
+  63:5   warning  'lscale' is not defined     no-undef
+  63:14  warning  'canvas' is not defined     no-undef
+  68:5   warning  'context' is not defined    no-undef
+  68:26  warning  'canvas' is not defined     no-undef
+  69:5   warning  'context' is not defined    no-undef
+
+/home/runner/work/exp-newtons-ring-experiment-iitb/exp-newtons-ring-experiment-iitb/experiment/simulation/js/text_simulation.js
+    2:5    warning  'x_line' is defined but never used               no-unused-vars
+    3:5    warning  'y_line' is defined but never used               no-unused-vars
+    8:5    warning  'context2' is assigned a value but never used    no-unused-vars
+   12:5    warning  'pp' is not defined                              no-undef
+   13:5    warning  'pp' is not defined                              no-undef
+   14:5    warning  'pp' is not defined                              no-undef
+   17:5    warning  'pp' is not defined                              no-undef
+   18:5    warning  'canvas' is not defined                          no-undef
+   18:14   warning  'pp' is not defined                              no-undef
+   19:5    warning  'context' is not defined                         no-undef
+   19:15   warning  'canvas' is not defined                          no-undef
+   20:5    warning  'scene' is not defined                           no-undef
+   20:17   warning  'Scene' is not defined                           no-undef
+   21:25   warning  'Chemistry' is not defined                       no-undef
+   21:49   warning  'bench' is not defined                           no-undef
+   21:60   warning  'Chemistry' is not defined                       no-undef
+   21:98   warning  'canvas' is not defined                          no-undef
+   22:26   warning  'Chemistry' is not defined                       no-undef
+   22:50   warning  'holder' is not defined                          no-undef
+   22:62   warning  'Chemistry' is not defined                       no-undef
+   22:100  warning  'canvas' is not defined                          no-undef
+   23:24   warning  'Chemistry' is not defined                       no-undef
+   23:48   warning  'lens' is not defined                            no-undef
+   23:58   warning  'Chemistry' is not defined                       no-undef
+   23:96   warning  'canvas' is not defined                          no-undef
+   24:9    warning  'mscope_img' is assigned a value but never used  no-unused-vars
+   24:26   warning  'Chemistry' is not defined                       no-undef
+   24:50   warning  'mscope' is not defined                          no-undef
+   24:62   warning  'Chemistry' is not defined                       no-undef
+   24:99   warning  'canvas' is not defined                          no-undef
+   27:5    warning  'scene' is not defined                           no-undef
+   28:5    warning  'scene' is not defined                           no-undef
+   29:5    warning  'scene' is not defined                           no-undef
+   60:10   warning  'a2_windowresize' is defined but never used      no-unused-vars
+   66:5    warning  'scene' is not defined                           no-undef
+   80:5    warning  'canvas' is not defined                          no-undef
+   81:5    warning  'canvas' is not defined                          no-undef
+   81:21   warning  'canvas' is not defined                          no-undef
+   82:5    warning  'lscale' is not defined                          no-undef
+   82:14   warning  'canvas' is not defined                          no-undef
+   91:5    warning  'context' is not defined                         no-undef
+   91:26   warning  'canvas' is not defined                          no-undef
+   92:5    warning  'context' is not defined                         no-undef
+  100:25   warning  'data' is not defined                            no-undef
+  101:16   warning  'data' is not defined                            no-undef
+  114:5    warning  'pp' is not defined                              no-undef
+  120:18   warning  'Chemistry' is not defined                       no-undef
+  122:19   warning  'Chemistry' is not defined                       no-undef
+  122:43   warning  'dark' is not defined                            no-undef
+  122:53   warning  'Chemistry' is not defined                       no-undef
+  125:10   warning  'move_right' is defined but never used           no-unused-vars
+  127:5    warning  'scene' is not defined                           no-undef
+  129:10   warning  'move_left' is defined but never used            no-unused-vars
+  131:5    warning  'scene' is not defined                           no-undef
+  133:10   warning  'move_fine_right' is defined but never used      no-unused-vars
+  135:5    warning  'scene' is not defined                           no-undef
+  137:10   warning  'move_fine_left' is defined but never used       no-unused-vars
+  139:5    warning  'scene' is not defined                           no-undef
+  141:10   warning  'move_up' is defined but never used              no-unused-vars
+  143:5    warning  'scene' is not defined                           no-undef
+  145:10   warning  'move_fine_up' is defined but never used         no-unused-vars
+  147:5    warning  'scene' is not defined                           no-undef
+  149:10   warning  'move_down' is defined but never used            no-unused-vars
+  151:5    warning  'scene' is not defined                           no-undef
+  153:10   warning  'move_fine_down' is defined but never used       no-unused-vars
+  155:5    warning  'scene' is not defined                           no-undef
+  157:10   warning  're_center' is defined but never used            no-unused-vars
+  159:5    warning  'scene' is not defined                           no-undef
+  161:10   warning  'draw_img1_delay' is defined but never used      no-unused-vars
+  164:10   warning  'draw_img2_delay' is defined but never used      no-unused-vars
+
+✖ 783 problems (0 errors, 783 warnings)
+  0 errors and 1 warning potentially fixable with the `--fix` option.
+
