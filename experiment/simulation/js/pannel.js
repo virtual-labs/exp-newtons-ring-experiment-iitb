@@ -1,9 +1,12 @@
 //style="margin: 1% 6.5% 1% 2%;" for id=panel
-var mypannel = `<div id="panel" style="margin: 1% 6.5% 1% 2%;">
-<div class="row">
-<div id="leftpannel" style="border: 2px solid black; border-radius: 10px;" class="col-12"></div>
+var mypannel = `
+<div id="panel" style="margin: 1% 6.5% 1% 2%;">
+    <div class="row">
+        <div id="leftpannel" style="border: 2px solid black; border-radius: 10px;" class="col-12"></div>
 
-<div id="rightpannel" style="position:absolute;right:0px"></div>
+        <div id="rightpannel" style="position:absolute;right:0px"></div>
+    </div>
+</div>
 `;
 class Pannel {
     constructor(divpannelid) {
@@ -37,7 +40,7 @@ class Pannel {
       <br>  `;
     }
     addcanvas(canvasid) {
-        this.leftpannel.innerHTML = `<canvas id="${canvasid}"></canvas>`;
+        this.leftpannel.innerHTML += `<canvas id="${canvasid}"></canvas>`;
         this.canvas = document.getElementById(canvasid);
     }
     addtoleftpannel(component) {

@@ -1,16 +1,23 @@
+// simulation images
+let bench = new Image();
+bench.src = './images/simulation/bench_600x400.png';
+let holder = new Image();
+holder.src = './images/simulation/holder_600x400.png';
+let lens = new Image();
+lens.src = `./images/simulation/lens_600x400.png`;
+let mscope = new Image();
+mscope.src = `./images/simulation/mscope_lens_top_cr.png`;
+let dark = new Image();
+dark.src = './images/simulation/blackstage.png';
 // 7 individual components for acitvity 1
-var ballast_tank = new Image();
-ballast_tank.src = './images/components/Ballast_Tank.webp';
-var condenser = new Image();
-condenser.src = './images/components/Condenser.webp';
-var n2_tank = new Image();
-n2_tank.src = './images/components/N2_Tank.webp';
-var dimmer_stat = new Image();
-dimmer_stat.src = './images/components/Temperature_Indicator2.webp';
-var connector = new Image();
-connector.src = './images/components/Connector.webp';
-var temp_indicator = new Image();
-temp_indicator.src = './images/components/Temperature_Indicator.webp';
-var ebulliometer = new Image();
-ebulliometer.src = './images/components/Ebulliometer.webp';
+let circular_glass = new Image();
+circular_glass.src = `./images/components/Circular_glass_plate.webp`;
+let convex_lens = new Image();
+convex_lens.src = `./images/components/Convex_lens.webp`;
+let light = new Image();
+light.src = `./images/components/Monochromatic_Source02.webp`;
+let plano_convex = new Image();
+plano_convex.src = `./images/components/pc_1.webp`;
+let microscope = new Image();
+microscope.src = `./images/components/Travelling_microscope.webp`;
 //# sourceMappingURL=loaded_images.js.map

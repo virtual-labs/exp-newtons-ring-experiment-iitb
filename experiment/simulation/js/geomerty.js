@@ -730,5 +730,102 @@ var Chemistry;
         }
     }
     Chemistry.Arrow = Arrow;
+    class Newtons_Rings extends Geometry {
+        constructor(n, d, color, stpt, canvas) {
+            super();
+            this.n = n;
+            this.d = d;
+            this.color = color;
+            this.canvas = canvas;
+            this.context = this.canvas.getContext('2d');
+            this.stpt = stpt;
+            this.center_x = stpt.x;
+            this.center_y = stpt.y;
+        }
+        draw() {
+            this.multiplier = 600 / this.d[this.n - 1];
+            // this.context.beginPath();
+            // this.context.moveTo(100, 100);
+            // this.context.lineTo(200, 200);
+            // this.context.stroke();
+            this.context.lineWidth = 2;
+            for (let i = 0; i < this.n; i++) {
+                this.context.strokeStyle = this.color;
+                // console.log(this.color);
+                this.context.beginPath();
+                this.context.arc(this.stpt.x * lscale, this.stpt.y * lscale, this.d[i] * this.multiplier * lscale / 2, 0, 2 * Math.PI, false);
+                // console.log(this.d[i]*multiplier*lscale/2);
+                this.context.stroke();
+                this.context.strokeStyle = 'black';
+            }
+            this.context.lineWidth = 1;
+        }
+        shift_left() {
+            if (this.stpt.x > 100) {
+                this.stpt.x -= 10;
+            }
+        }
+        shift_fine_left() {
+            if (this.stpt.x > 100) {
+                this.stpt.x -= 0.5;
+            }
+        }
+        shift_right() {
+            if (this.stpt.x < 700) {
+                this.stpt.x += 10;
+                console.log(this.stpt.x);
+            }
+        }
+        shift_fine_right() {
+            if (this.stpt.x < 700) {
+                this.stpt.x += 0.5;
+            }
+        }
+        re_center() {
+            this.stpt.x = this.center_x;
+            this.stpt.y = this.center_y;
+        }
+        shift_up() {
+            if (this.n <= 40) {
+                this.n += 3;
+            }
+        }
+        shift_fine_up() {
+            if (this.n <= 40) {
+                this.n += 1;
+            }
+        }
+        shift_down() {
+            if (this.n > 0) {
+                this.n -= 3;
+            }
+        }
+        shift_fine_down() {
+            if (this.n > 0) {
+                this.n -= 1;
+            }
+        }
+    }
+    Chemistry.Newtons_Rings = Newtons_Rings;
+    class Line extends Geometry {
+        constructor(x1, y1, x2, y2, canvas) {
+            super();
+            this.x1 = x1;
+            this.x2 = x2;
+            this.y1 = y1;
+            this.y2 = y2;
+            this.canvas = canvas;
+            context = canvas.getContext('2d');
+        }
+        draw() {
+            context.beginPath();
+            context.moveTo(this.x1 * lscale, this.y1 * lscale);
+            context.lineTo(this.x2 * lscale, this.y2 * lscale);
+            context.strokeStyle = 'white'; // You can set the color of the line here
+            context.lineWidth = 1; // You can set the line width here
+            context.stroke();
+        }
+    }
+    Chemistry.Line = Line;
 })(Chemistry || (Chemistry = {}));
 //# sourceMappingURL=geomerty.js.map
