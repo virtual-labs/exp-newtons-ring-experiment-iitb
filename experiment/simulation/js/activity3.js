@@ -24,6 +24,7 @@ function activity3() {
     <div>
         <label for="">Set n value</label>
         <input disabled type="range" min='1' max='50' step='1' value="1" id='n-inp' onchange="set_n()" oninput="set_n();">
+        <input class='from-control' id='show-order' value='0' disabled />
         <br>
 
         <label for="">Bright Ring Diameter (cm)</label>
@@ -64,11 +65,14 @@ function activity3() {
 
 
 
-        <input disabled type='button' class='btn btn-primary' value="Next" style="margin-left: 3%; width: 20%;" id='act3_button' onclick='activity4();'>
+        <input disabled type='button' class='btn btn-primary' value="Next" style="margin-left: 3%; width: 20%;" id='act3_button' onclick='go_to_act2();'>
 
     `;
     pp.addtoleftpannel(left_panel_text);
     load_colors();
+    document.getElementById('leftpannel').style.height = (window.innerWidth * 0.91 * 1080.0 / 1920 * 0.85 + 5) + "px";
+    document.getElementById('leftpannel').style.margin = '0';
+    document.getElementById('leftpannel').style.overflow = 'auto';
 }
 function load_colors() {
     let color_options = document.getElementById('color-dd');
@@ -82,6 +86,28 @@ function set_color() {
     let r = document.getElementById('r-dd');
     if (color.value) {
         selected_color_lambda = parseFloat(color.value);
+        if (colors[0][1] == parseFloat(color.value)) {
+            selected_ring_color = 'violet';
+        }
+        else if (colors[1][1] == parseFloat(color.value)) {
+            selected_ring_color = 'indigo';
+        }
+        else if (colors[2][1] == parseFloat(color.value)) {
+            selected_ring_color = 'blue';
+        }
+        else if (colors[3][1] == parseFloat(color.value)) {
+            selected_ring_color = 'green';
+        }
+        else if (colors[4][1] == parseFloat(color.value)) {
+            selected_ring_color = 'yellow';
+        }
+        else if (colors[5][1] == parseFloat(color.value)) {
+            selected_ring_color = 'orange';
+        }
+        else if (colors[6][1] == parseFloat(color.value)) {
+            selected_ring_color = 'red';
+        }
+        console.log(selected_ring_color);
         r.disabled = false;
         r.innerHTML = `<option value=''>--Select--</option>`;
         for (let i = 0; i < radius.length; i++) {
@@ -112,7 +138,9 @@ function set_n() {
     let bvs = document.getElementById('bright-vs');
     let dms = document.getElementById('dark-ms');
     let dvs = document.getElementById('dark-vs');
+    let show_n = document.getElementById('show-order');
     selected_n = parseInt(n.value);
+    show_n.value = 'n = ' + selected_n.toString();
     for (let i = 0; i < data.length; i++) {
         if (selected_n == data[i][0]) {
             bright.value = data[i][1].toFixed(3);
@@ -126,5 +154,7 @@ function set_n() {
     let btn = document.getElementById('act3_button');
     btn.disabled = false;
 }
-activity3();
+function go_to_act2() {
+    activity2();
+}
 //# sourceMappingURL=activity3.js.map

@@ -1,4 +1,7 @@
 function verify_values(value, truevalue) {
+    if (truevalue == 0 && value == 0) {
+        return true;
+    }
     let calculated_value = (truevalue - value) / truevalue * 100;
     if (calculated_value <= 4 && calculated_value >= -4) {
         return true;
