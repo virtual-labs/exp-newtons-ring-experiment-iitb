@@ -20,6 +20,7 @@ let all_canvas = `
 
 </canvas>
 `;
+// let color_dd  = `<div><Select onchange='set_color();' id='color-dd' class="form-select" style='position: absolute; width: 23vw; left: 55vw; top: 15vw; z-index: 5;' ></div>`;
 let all_btns = `
 <div style='position: absolute; z-index: 5; width: 20vw; height: 20vw;'>
     <button id='a2-btn-left' ><i class="bi bi-skip-backward"></i></button>
@@ -41,7 +42,6 @@ let readings = `
     <div><input style='width: 15vw; height: 3vw; font-size: 1.5vw;' id='vsr-inp' class='form-control' disabled value='00' /><div>
     <div><button onclick='add_readings();' class='btn btn-success' style='width: 100%; margin: 2px; font-size: 1vw;'>Add Reading</button></div>
     <div><button onclick='delete_readings();' class='btn btn-danger' style='width: 100%; margin: 2px; font-size: 1vw;'>Delete Reading</button></div>
-
     </div>
 `;
 let my_canvas1;
@@ -56,17 +56,28 @@ function activity2() {
     pp.clearrightpannel();
     pp.addoffcanvas(3);
     pp.addoffcanvas(4);
+    user_readings = [
+        ['1', ' ', ' ', ' ', ' ', ' '],
+        ['2', ' ', ' ', ' ', ' ', ' '],
+        ['3', ' ', ' ', ' ', ' ', ' '],
+        ['4', ' ', ' ', ' ', ' ', ' '],
+        ['5', ' ', ' ', ' ', ' ', ' '],
+        ['6', ' ', ' ', ' ', ' ', ' '],
+        ['7', ' ', ' ', ' ', ' ', ' '],
+        ['8', ' ', ' ', ' ', ' ', ' ']
+    ];
+    ;
     pp.showtitle(`<p id="exp-title" style='width: 25vw;'>Note Readings in table</span><p>`, 3);
     pp.showdescription(`<div style="background-color: #f4ccccff; border-radius: 10px; border: black; padding: 5%; font-weight: 500; font-size: calc(0.5vw + 12px);">
     <p>Use the arrow shown on the simulator to zoom in, zoom out, left and right</p>
     <p>Use double arrow to do fine adjustments</p>
     <p>To take reading a certain point click "add readings" button to add directly to the table</p>
-    <p> total reading = <span style='font-size: 1.4vw;'>$$\\frac{(msr_{left} - msr_{right})+((vsr_{left} - vsr_{right})*0.02)}{10} $$</span></p>
      </div>`, 3);
     pp.showtitle(`Observation Table`, 4);
     // load reading talble in right panel
     load_reading_table();
     show_side_panel();
+    // pp.addtoleftpannel(color_dd);
     pp.addtoleftpannel(all_btns);
     pp.addtoleftpannel(readings);
     pp.addtoleftpannel(all_canvas);
@@ -86,23 +97,23 @@ function activity2() {
     window.onload = a2_windowresize;
     window.onresize = a2_windowresize;
     setTimeout(draw_all_canvas, 500);
-    MathJax.typeset();
+    setTimeout(() => { MathJax.typeset(); }, 200);
     a2_windowresize();
 }
 function draw_all_canvas() {
     load_canvas3_images();
     load_canvas2_images();
     load_canvas1_images();
-    let right_btn = document.getElementById('a2-btn-right');
-    let left_btn = document.getElementById('a2-btn-left');
-    let fine_left_btn = document.getElementById('a2-btn-fine-left');
-    let fine_right_btn = document.getElementById('a2-btn-fine-right');
-    let up_btn = document.getElementById('a2-btn-up');
-    let fine_up_btn = document.getElementById('a2-btn-fine-up');
-    let down_btn = document.getElementById('a2-btn-down');
-    let fine_down_btn = document.getElementById('a2-btn-fine-down');
-    let reset = document.getElementById('re-center');
-    right_btn.addEventListener("click", move_right);
+    let right_btn = (document.getElementById('a2-btn-right'));
+    let left_btn = (document.getElementById('a2-btn-left'));
+    let fine_left_btn = (document.getElementById('a2-btn-fine-left'));
+    let fine_right_btn = (document.getElementById('a2-btn-fine-right'));
+    let up_btn = (document.getElementById('a2-btn-up'));
+    let fine_up_btn = (document.getElementById('a2-btn-fine-up'));
+    let down_btn = (document.getElementById('a2-btn-down'));
+    let fine_down_btn = (document.getElementById('a2-btn-fine-down'));
+    let reset = (document.getElementById('re-center'));
+    right_btn.addEventListener('click', move_right);
     left_btn.addEventListener('click', move_left);
     fine_right_btn.addEventListener('click', move_fine_right);
     fine_left_btn.addEventListener('click', move_fine_left);
@@ -125,16 +136,17 @@ function a2_windowresize() {
 }
 function a2_canvas_size() {
     my_canvas3.width = window.innerWidth * 0.91;
-    my_canvas3.height = my_canvas3.width * 1080.0 / 1920 * 0.85;
+    my_canvas3.height = ((my_canvas3.width * 1080.0) / 1920) * 0.85;
     lscale = my_canvas3.width / 1920.0;
-    document.getElementById('leftpannel').style.height = (my_canvas3.height + 5) + "px";
+    document.getElementById('leftpannel').style.height =
+        my_canvas3.height + 5 + 'px';
     document.getElementById('leftpannel').style.margin = '0';
     my_canvas2.width = window.innerWidth * 0.375;
     my_canvas2.height = window.innerWidth * 0.375;
     console.log(my_canvas2.width, my_canvas2.height);
     my_canvas2.style.borderRadius = '50%';
     my_canvas1.width = window.innerWidth * 0.91;
-    my_canvas1.height = my_canvas1.width * 1080.0 / 1920 * 0.85;
+    my_canvas1.height = ((my_canvas1.width * 1080.0) / 1920) * 0.85;
 }
 function a2_canvas_mapping() {
     my_context1.translate(0, my_canvas1.height);
@@ -166,7 +178,7 @@ function load_canvas2_images() {
         d[i] = data[i][1];
     }
     console.log(my_canvas2.width, my_canvas2.height);
-    n_rings = new Chemistry.Newtons_Rings(5, d, selected_ring_color, new Chemistry.Point(my_canvas2.width / (2 * lscale) + 5, my_canvas2.height / (2 * lscale)), my_canvas2);
+    n_rings = new Chemistry.Newtons_Rings(8, d, selected_ring_color, new Chemistry.Point(my_canvas2.width / (2 * lscale) + 5, my_canvas2.height / (2 * lscale)), my_canvas2);
     let mscope_img = new Chemistry.Custome_image(mscope, new Chemistry.Point(my_canvas2.width / (2 * lscale), my_canvas2.height / (2 * lscale)), 860, 860, my_canvas2);
     let x_line = new Chemistry.Line(100, my_canvas2.height / (2 * lscale), 700, my_canvas2.height / (2 * lscale), my_canvas2);
     let y_line = new Chemistry.Line(my_canvas2.width / (2 * lscale) + 5, 100, my_canvas2.width / (2 * lscale) + 5, 700, my_canvas2);
@@ -174,6 +186,10 @@ function load_canvas2_images() {
     scene1.add(mscope_img);
     scene1.add(x_line);
     scene1.add(y_line);
+    all_left_readings = n_rings.all_left_readings;
+    console.log(all_left_readings);
+    all_right_readings = n_rings.all_right_readings;
+    console.log(all_right_readings);
 }
 function move_right() {
     n_rings.shift_left();
@@ -216,18 +232,35 @@ function re_center() {
     scene1.draw();
 }
 function show_main_scale_reading() {
-    msr = n_rings.stpt.x / (n_rings.multiplier / 2);
-    msr = msr / 2;
-    let msr_val = Math.floor(parseFloat((msr / 2).toFixed(3)) / (0.05));
-    let vsr_val = Math.floor((parseFloat((msr / 2).toFixed(3)) - msr_val * 0.05) * 1000);
-    msr_show.value = msr_val.toString();
-    vsr_show.value = vsr_val.toString();
+    if (n_rings.center_x <= n_rings.stpt.x) {
+        msr = (n_rings.stpt.x - n_rings.center_x) / (n_rings.multiplier / 2);
+        msr = msr / 2;
+        let msr_val = Math.floor(parseFloat((msr / 2).toFixed(3)) / 0.05);
+        let vsr_val = Math.floor((parseFloat((msr / 2).toFixed(3)) - (msr_val * 0.05)) * 1000);
+        msr_show.value = msr_val.toString();
+        vsr_show.value = vsr_val.toString();
+    }
+    else if (n_rings.center_x > n_rings.stpt.x) {
+        msr = (n_rings.center_x - n_rings.stpt.x) / (n_rings.multiplier / 2);
+        msr = msr / 2;
+        let msr_val = Math.floor(parseFloat((msr / 2).toFixed(3)) / 0.05);
+        let vsr_val = Math.floor((parseFloat((msr / 2).toFixed(3)) - (msr_val * 0.05)) * 1000);
+        msr_show.value = msr_val.toString();
+        vsr_show.value = vsr_val.toString();
+    }
 }
 function load_reading_table() {
-    let extra_gear_icon = document.getElementsByClassName('offcanvasbtn')[1];
+    let extra_gear_icon = (document.getElementsByClassName('offcanvasbtn')[1]);
     extra_gear_icon.innerHTML = '<i class="bi bi-table"></i>';
     extra_gear_icon.style.top = 'calc(5vw + 20px)';
-    let heading = ['nth Ring', 'Left MSR', 'left VSR', 'right MSR', 'right VSR', 'total reading'];
+    let heading = [
+        'nth Ring',
+        'Left MSR',
+        'left VSR',
+        'right MSR',
+        'right VSR',
+        'total reading',
+    ];
     let rows = user_readings;
     tab = new Table(heading, rows);
     table = tab.template;
@@ -235,7 +268,7 @@ function load_reading_table() {
     tab.draw();
 }
 function add_readings() {
-    if (num_of_readings <= 7) {
+    if (num_of_readings <= 3) {
         let r1 = msr_show.value;
         let r2 = vsr_show.value;
         if (new_row) {
@@ -251,9 +284,7 @@ function add_readings() {
             user_readings[num_of_readings][3] = r1;
             user_readings[num_of_readings][4] = r2;
             user_readings[num_of_readings][5] =
-                (((parseInt(user_readings[num_of_readings][1]) - parseInt(user_readings[num_of_readings][3]))
-                    + (parseInt(user_readings[num_of_readings][2]) - parseInt(user_readings[num_of_readings][4])) * 0.02) / 10).toFixed(4);
-            ;
+                (((parseInt(user_readings[num_of_readings][1]) - parseInt(user_readings[num_of_readings][3])) + (parseInt(user_readings[num_of_readings][2]) - parseInt(user_readings[num_of_readings][4])) * 0.02) / 10).toFixed(4);
             new_row = true;
             num_of_readings++;
             tab.draw();
@@ -261,11 +292,24 @@ function add_readings() {
         }
     }
     else {
-        alert("You have entered maximum values, now you can move to calculations");
+        alert("You have entered 4 sets of values, now the rest of the data will be auto-generated you can move to calculations");
     }
-    if (num_of_readings == 8) {
+    if (num_of_readings == 4) {
         pp.addtorightpannel(bt_to_activity4, 3);
+        complete_reading_table();
+        //pp.showdescription('Rest of the table values will be auot filled', 3);
         show_side_panel();
+    }
+}
+function complete_reading_table() {
+    if (num_of_readings == 4) {
+        for (let i = 0; i < 4; i++) {
+            user_readings[i + 4][1] = all_left_readings[i + 4][0].toFixed(2);
+            user_readings[i + 4][2] = all_left_readings[i + 4][1].toFixed(2);
+            user_readings[i + 4][3] = all_right_readings[i + 4][0].toFixed(2);
+            user_readings[i + 4][4] = all_right_readings[i + 4][1].toFixed(2);
+            user_readings[i + 4][5] = ((all_left_readings[i + 4][0] - all_left_readings[i + 4][3] + (all_left_readings[i + 4][2] - all_left_readings[i + 4][4]) * 0.02) / 10).toFixed(3);
+        }
     }
 }
 function delete_readings() {
@@ -306,20 +350,21 @@ function delete_readings() {
         }
     }
     else {
-        alert("No input values");
+        alert('No input values');
     }
 }
 function show_table_panel() {
-    var bsOffcanvas = new bootstrap.Offcanvas(document.getElementById("offcanvasRight4"));
+    var bsOffcanvas = new bootstrap.Offcanvas(document.getElementById('offcanvasRight4'));
     bsOffcanvas.show();
 }
 function show_side_panel() {
-    var bsOffcanvas = new bootstrap.Offcanvas(document.getElementById("offcanvasRight3"));
+    var bsOffcanvas = new bootstrap.Offcanvas(document.getElementById('offcanvasRight3'));
     bsOffcanvas.show();
 }
 function move_to_act4() {
+    user_data = [];
     user_data = data;
-    for (let i = 0; i < 7; i++) {
+    for (let i = 0; i < 4; i++) {
         user_data[i][1] = parseFloat(user_readings[i][5]);
         user_data[i][3] = parseInt(user_readings[i][1]) - parseInt(user_readings[i][3]);
         user_data[i][4] = parseInt(user_readings[i][2]) - parseInt(user_readings[i][4]);
@@ -335,7 +380,7 @@ function fill_test_val() {
         user_readings[i][5] = '00';
     }
     // num_of_readings = 8;
-    // add_readings(); 
+    // add_readings();
     for (let i = 0; i < 8; i++) {
         user_data[i] = [];
         user_data[i][0] = auto_fill_data[i][0];
@@ -351,4 +396,5 @@ function fill_test_val() {
     }
     activity4();
 }
+//activity2();
 //# sourceMappingURL=activity2.js.map

@@ -733,6 +733,8 @@ var Chemistry;
     class Newtons_Rings extends Geometry {
         constructor(n, d, color, stpt, canvas) {
             super();
+            this.all_left_readings = [];
+            this.all_right_readings = [];
             this.n = n;
             this.d = d;
             this.color = color;
@@ -749,7 +751,22 @@ var Chemistry;
             // this.context.lineTo(200, 200);
             // this.context.stroke();
             this.context.lineWidth = 2;
+            this.all_left_readings = [];
+            this.all_right_readings = [];
             for (let i = 0; i < this.n; i++) {
+                //for recording the left values
+                let msr = (this.stpt.x + (this.d[i] * this.multiplier / 2) - this.center_x) / (n_rings.multiplier / 2);
+                msr = msr / 2;
+                let msr_val = Math.floor(parseFloat((msr / 2).toFixed(3)) / (0.05));
+                let vsr_val = Math.floor((parseFloat((msr / 2).toFixed(3)) - (msr_val * 0.05)) * 1000);
+                this.all_left_readings.push([msr_val, vsr_val]);
+                //for recording the right values
+                let msr2 = (this.center_x - this.stpt.x + (this.d[i] * this.multiplier / 2)) / (n_rings.multiplier / 2);
+                msr2 = msr2 / 2;
+                let msr2_val = Math.floor(parseFloat((msr2 / 2).toFixed(3)) / (0.05));
+                let vsr2_val = Math.floor((parseFloat((msr2 / 2).toFixed(3)) - (msr2_val * 0.05)) * 1000);
+                this.all_right_readings.push([msr2_val, vsr2_val]);
+                //draw
                 this.context.strokeStyle = this.color;
                 // console.log(this.color);
                 this.context.beginPath();

@@ -52,10 +52,6 @@ function draw_chart() {
                     borderColor: 'blue',
                     tension: 0.5,
                     showLine: false,
-                    // yAxisID: 'A',
-                    // borderWidth: 1,
-                    // borderColor: "green",
-                    // backgroundColor: "rgba(34, 139, 34, 0.5)",
                 },
                 {
                     label: 'Best Fit',
@@ -64,10 +60,6 @@ function draw_chart() {
                     borderColor: 'red',
                     tension: 0.5,
                     showLine: true,
-                    // yAxisID: 'A',
-                    // borderWidth: 1,
-                    // borderColor: "red",
-                    // backgroundColor: "rgba(255, 0, 0, 0.5)",
                 },
                 {
                     label: 'Theoratical',
@@ -76,10 +68,6 @@ function draw_chart() {
                     borderColor: 'green',
                     tension: 0.5,
                     showLine: false,
-                    // yAxisID: 'A',
-                    // borderWidth: 1,
-                    // borderColor: "red",
-                    // backgroundColor: "rgba(255, 0, 0, 0.5)",
                 },
             ],
         },
@@ -126,7 +114,7 @@ function verify_slope_text() {
     pp.showtitle(`<p id="exp-title" style='width: 25vw;'>Diameter sqauared vs Ring Number<p>`, 3);
     let text = `
     <div>
-        <p>experimental slope = ${slope}</p>
+        <p>experimental slope = ${slope.toFixed(4)}</p>
 		<p>radius of curvature of lens R = ${selected_r}</p>
         <p>$$ \\lambda_{exp} = \\frac{slope}{4 * R}  $$</p>
 		<p>$$ \\lambda_{exp} = $$ <input placeholder='Your Answer' class='form-control' id='lambda-inp' /></p>
@@ -137,7 +125,7 @@ function verify_slope_text() {
     MathJax.typeset();
 }
 function verify_lambda() {
-    let ele = document.getElementById('lambda-inp');
+    let ele = (document.getElementById('lambda-inp'));
     lambda_exp = slope / (4 * selected_r);
     console.log(lambda_exp);
     if (!verify_values(lambda_exp, parseFloat(ele.value))) {
@@ -153,9 +141,11 @@ function verify_lambda() {
     pp.addtoleftpannel(`
 	<div style='text-align: center;'>
 	<br>
-	<h3>&lambda; for selected color ${selected_ring_color}  = ${orignial_value.toFixed(8)}</h3>
-	<h3>Your experimentally calculated &lambda;<sub>exp</sub>    = ${lambda_exp.toFixed(8)}</h3>
-	<h3>Percentage error = ${(error).toFixed(4)} %</h3>
+	<h3>&lambda; for selected color ${selected_ring_color}  = ${(orignial_value *
+        Math.pow(10, 7)).toFixed(2)}nm</h3>
+	<h3>Your experimentally calculated &lambda;<sub>exp</sub>    = ${(lambda_exp *
+        Math.pow(10, 7)).toFixed(2)}nm</h3>
+	<h3>Percentage error = ${(error).toFixed(2)} %</h3>
 	<h3>Result => ${result}</h3>
 	</div>
 	`);

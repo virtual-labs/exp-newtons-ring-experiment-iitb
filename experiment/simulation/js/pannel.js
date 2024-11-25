@@ -27,7 +27,7 @@ class Pannel {
         aria-labelledby="offcanvasRightLabel">
         <div class="offcanvas-header" style="display: flex !important; flex-direction: column !important;">
 
-        <button id="hide_panel${id}" type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        <button id="hide_panel${id}" type="button" class='btn-close' data-bs-dismiss="offcanvas" aria-label="Close" ></button>
         <h5 class="offcanvas-title" id="offcanvasRightLabel${id}"></h5>
            
         </div>
@@ -36,7 +36,7 @@ class Pannel {
 
         </div>
     </div>
-    <button class="offcanvasbtn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight${id}" aria-controls="offcanvasRight${id}" style="width: 4%;"><i class="bi bi-gear offcanvasicon" style="font-size: calc(1vw + 12px);"></i></button>
+    <button class="offcanvasbtn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight${id}" aria-controls="offcanvasRight${id}" style="width: 4%;"><i class="bi bi-arrow-bar-left" style="font-size: calc(1vw + 12px);"></i></button>
       <br>  `;
     }
     addcanvas(canvasid) {
@@ -88,6 +88,40 @@ class Table {
         
         </tbody>
     </table>`;
+        this.heading_column = heading_column;
+        this.data = data;
+    }
+    draw() {
+        console.log(this.data);
+        let row = "";
+        for (let i = 0; i < this.heading_column.length; i++) {
+            row += `<th>${this.heading_column[i]}</th>`;
+        }
+        document.getElementById("header-1").innerHTML = row;
+        document.getElementById('table-body').innerHTML = "";
+        for (let i = 0; i < this.data.length; i++) {
+            let col = `<tr>`;
+            for (let j = 0; j < this.data[i].length; j++) {
+                col += `<td>${this.data[i][j]}</td>`;
+            }
+            col += `</tr>`;
+            document.getElementById('table-body').innerHTML += col;
+        }
+    }
+}
+class Table3 {
+    constructor(heading_column, data) {
+        this.template = `   
+    <div class='table-responsive' style='overflow-auto;'>
+    <table class="table" style="height: 100%">
+        <thead>
+            <tr id="header-1">
+            </tr>
+        </thead>
+        <tbody id="table-body">
+        
+        </tbody>
+    </table></div>`;
         this.heading_column = heading_column;
         this.data = data;
     }
