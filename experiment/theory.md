@@ -31,3 +31,4 @@ varying thickness between the surface of a convex lens of large radius of curvat
 ![](./images/image_1.png)
 ![half-wavelength phase change](./images/image_2.jpg)
 ![](./images/image_3.png)
+<script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"> </script>
