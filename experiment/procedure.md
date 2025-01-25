@@ -1,4 +1,6 @@
-<ol type='1' >Precaution</ol>
+<h3>Precaution</h3>
+
+<ol type='1'>
 
 <li> Glass plate & lens should be clean to avoid the presence of dust particles between them. </li>
 
@@ -10,7 +12,11 @@
 
 <li> The source should be an external source. </li>
 
-<ol type='1'>Procedure</ol>
+</ol>
+
+<h3>Procedure</h3>
+
+<ol type='1'>
 
 <li> Find the least count of traveling microscope.  </li>
 
@@ -25,6 +31,8 @@
 <li> Set the cross wire on the 1st ring (Now on the ring side) & again note down the microscopic reading, repeat same procedure for 2nd ring (right side).  </li>
 
 <li> Calculate the wavelength of light used.  </li>
+
+</ol>
 
 <p> where,
 
