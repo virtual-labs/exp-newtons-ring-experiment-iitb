@@ -1,31 +1,30 @@
-<h3>Precaution</h3>
+<ol type='1' >Precaution</ol>
 
-1. Glass plate & lens should be clean to avoid the presence of dust particles between them. <br>
+<li> Glass plate & lens should be clean to avoid the presence of dust particles between them. </li>
 
-2. The lens should be of large radius of curvature. <br>
+<li> The lens should be of large radius of curvature. </li>
 
-3. The glass plate should be inclined at angle of 450 with an incident light. <br>
+<li> The glass plate should be inclined at angle of 450 with an incident light. </li>
 
-4. Cross wire should be focused tangentially on ring. <br>
+<li> Cross wire should be focused tangentially on ring. </li>
 
-5. The source should be an external source. <br>
+<li> The source should be an external source. </li>
 
-<h3>Procedure</h3>
+<ol type='1'>Procedure</ol>
 
-1. Find the least count of traveling microscope.   <br>
+<li> Find the least count of traveling microscope.  </li>
 
-2. Arrange the apparatus as shown in fig so as to obtain Newton's ring.  <br>
+<li> Arrange the apparatus as shown in fig so as to obtain Newton's ring.  </li>
 
-3. Select the ring; say 1st and 2nd for determining their radius.  <br>
+<li> Select the ring; say 1st and 2nd for determining their radius.  </li>
 
-4. Set the vertical cross wire tangential to the 1st ring (left side first) Note down the readings.  <br>
+<li> Set the vertical cross wire tangential to the 1st ring (left side first) Note down the readings.  </li>
 
-5. Repeat the step (4) for 2nd ring (left side).  <br>
+<li> Repeat the step (4) for 2nd ring (left side).  </li>
 
-6. Set the cross wire on the 1st ring (Now on the ring side) & again note down the microscopic reading, repeat same procedure for 2nd ring (right side).  <br>
+<li> Set the cross wire on the 1st ring (Now on the ring side) & again note down the microscopic reading, repeat same procedure for 2nd ring (right side).  </li>
 
-7. Calculate the wavelength of light used.  <br>
-                                                                               |
+<li> Calculate the wavelength of light used.  </li>
 
 <p> where,
 
