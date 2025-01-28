@@ -1,61 +1,53 @@
-## Precaution
+<h3>Precaution</h3>
 
-1. Glass plate & lens should be clean to avoid the presence of dust particles between them.
+<ol type='1'>
 
-2. The lens should be of large radius of curvature.
+<li> Glass plate & lens should be clean to avoid the presence of dust particles between them. </li>
 
-3. The glass plate should be inclined at angle of 450 with an incident light.
+<li> The lens should be of large radius of curvature. </li>
 
-4. Cross wire should be focused tangentially on ring.
+<li> The glass plate should be inclined at angle of 450 with an incident light. </li>
 
-5. The source should be an external source.
+<li> Cross wire should be focused tangentially on ring. </li>
 
-## Procedure
+<li> The source should be an external source. </li>
 
-1. Find the least count of traveling microscope.
+</ol>
 
-2. Arrange the apparatus as shown in fig so as to obtain Newton's ring.
+<h3>Procedure</h3>
 
-3. Select the ring; say 1st and 2nd for determining their radius.
+<ol type='1'>
 
-4. Set the vertical cross wire tangential to the 1st ring (left side first) Note down the readings.
+<li> Find the least count of traveling microscope.  </li>
 
-5. Repeat the step (4) for 2nd ring (left side).
+<li> Arrange the apparatus as shown in fig so as to obtain Newton's ring.  </li>
 
-6. Set the cross wire on the 1st ring (Now on the ring side) & again note down the microscopic reading, repeat same procedure for 2nd ring (right side).
+<li> Select the ring; say 1st and 2nd for determining their radius.  </li>
 
-7. Calculate the wavelength of light used.
+<li> Set the vertical cross wire tangential to the 1st ring (left side first) Note down the readings.  </li>
 
+<li> Repeat the step (4) for 2nd ring (left side).  </li>
 
-## Observation Table
+<li> Set the cross wire on the 1st ring (Now on the ring side) & again note down the microscopic reading, repeat same procedure for 2nd ring (right side).  </li>
 
-| Ring no. | &emsp;&emsp;&emsp;&emsp; Left Side &emsp;&emsp;&emsp;&emsp; | &emsp;&emsp;&emsp;&emsp; Right Side &emsp;&emsp;&emsp;&emsp; | &emsp;&emsp; Diameter(D) cm &emsp;&emsp; |
-| -------- | ----------------------------------------------------------- | ------------------------------------------------------------ | ---------------------------------------- |
+<li> Calculate the wavelength of light used.  </li>
 
-| &emsp;&emsp;&emsp;&emsp; | &emsp; MSR &nbsp;&nbsp; | &emsp; VSR&emsp; | &emsp; TR  &emsp; | &emsp; MSR&emsp; | &emsp; VSR&emsp; | &emsp; TR &emsp; | &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  &emsp;  &nbsp; &emsp;&emsp;&emsp;&emsp; |
-| ------------------------ | ----------------------- | ---------------- | ----------------- | ---------------- | ---------------- | ---------------- | ----------------------------------------------------------------------------- |
-| 1                        |                         |                  |                   |                  |                  |                  |                                                                               |
-| 2                        |                         |                  |                   |                  |                  |                  |                                                                               |
-| 3                        |                         |                  |                   |                  |                  |                  |                                                                               |
-| 4                        |                         |                  |                   |                  |                  |                  |                                                                               |
-| 5                        |                         |                  |                   |                  |                  |                  |                                                                               |
-| 6                        |                         |                  |                   |                  |                  |                  |                                                                               |
-| 7                        |                         |                  |                   |                  |                  |                  |                                                                               |
-| 8                        |                         |                  |                   |                  |                  |                  |                                                                               |
-
+</ol>
 
 <p> where,
 
-MSR - Main Scale Reading.
-VSR - Vernier Scale Reading.
-TR - Total Reading. </p>
+MSR - Main Scale Reading.  <br>
+VSR - Vernier Scale Reading.  <br>
+TR - Total Reading. 
 
-## Graph
+</p>
 
-![Graph](./images/graph.png)
+<h3> Graph </h3>
 
-## Result
+<img src='./images/graph.png' style='width: 80%; margin: auto;' />
 
-1. Wavelength (λ) of a given light is ____ Å
-2. Standard value of Wavelength (λ) of a given light is ____ Å
+<h3>Result</h3>
+
+1. Wavelength (λ) of a given light is ____ Å  <br>
+2. Standard value of Wavelength (λ) of a given light is ____ Å  <br>
 3. Percent Error in obtained result ____%
