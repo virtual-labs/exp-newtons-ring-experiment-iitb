@@ -1,0 +1,49 @@
+[
+    {
+        "question": "What is the primary optical phenomenon which leads to the formation of Newton's rings?",
+        "qid": 1,
+        "option_a": "Diffraction of light",
+        "option_b": " Refraction of light",
+        "option_c": "Interference of light",
+        "option_d": "Dispersion of light",
+        "correct_option": "c"
+    },
+    {
+        "question": "The formation of Newton’s circular rings is based on the splitting of",
+        "qid": 2,
+        "option_a": "division of amplitude",
+        "option_b": "division of wavelength",
+        "option_c": "thickness",
+        "option_d": "inclination ",
+        "correct_option": "a"
+    },
+    {
+        "question": "Newton's rings can be observed when light is incident on a:",
+        "qid": 3,
+        "option_a": "Plane Mirror",
+        "option_b": "Concave Mirror",
+        "option_c": "Convex Mirror",
+        "option_d": "Thin film of air between two surfaces",
+        "correct_option": "d"
+    },
+    {
+        
+        "question": "In Newton's Ring experiments, the diameter of dark rings is proportional to",
+        "qid": 4,
+        "option_a": "Odd Natural Numbers",
+        "option_b": "Natural Numbers",
+        "option_c": "Even Natural Numbers",
+        "option_d": "Square root of Natural Numbers",
+        "correct_option": "d"
+    },
+
+    {
+        "question": "What happens to the Newton's rings when monochromatic light of shorter wavelength is used?",
+        "qid": 5,
+        "option_a": "The rings become larger",
+        "option_b": "The rings become smaller",
+        "option_c": "The rings disappear",
+        "option_d": "The rings remain the same size",
+        "correct_option": "b"
+    }
+]

@@ -1,0 +1,49 @@
+[
+
+    {
+        "question": " When the plano-convex lens is replaced with a concave lens, what change would be observed in the Newton's rings?",
+        "qid": 1,
+        "option_a": "The rings will become smaller and less distinct.",
+        "option_b": "The rings will shift outward and become larger.",
+        "option_c": "The rings will shift inward and become smaller.",
+        "option_d": "The rings will disappear completely.",
+        "correct_option": "d"
+    },
+    {
+        "question": "How can you experimentally determine the refractive index of the liquid by the Newton's ring experiment?",
+        "qid": 2,
+        "option_a": "By measuring the diameter of the central spot",
+        "option_b": "By measuring the diameter of the nth dark ring",
+        "option_c": "By counting the number of colors of the rings",
+        "option_d": "By calculating the speed of light in the liquid medium",
+        "correct_option": "b"
+    },
+    {
+        "question": "How does the radius of curvature of plano-convex lens affect the Newton's ring pattern?",
+        "qid": 3,
+        "option_a": "The rings will be of smaller diameter",
+        "option_b": "The rings will shift outward and become larger.",
+        "option_c": "The rings will become elliptical",
+        "option_d": "The rings will disappear completely.",
+        "correct_option": "a"
+    },
+    {
+    
+        "question": "Which one of the following statements is correct about the pattern generated in Newton’s rings experiment?",
+        "qid": 4,
+        "option_a": "Perfectly concentric and uniformly spaced Newton's rings indicate a wedge-shaped surface irregularity.",
+        "option_b": "Irregularly spaced and non-concentric Newton's rings suggest a surface with uniform thickness.",
+        "option_c": "Deviations in the pattern indicate localized irregularities or defects on the surface.",
+        "option_d": "Equally spaced and concentric Newton's rings reveal the presence of a non-uniform thickness distribution on the surface.",
+        "correct_option": "c"
+    },
+    {
+        "question": "What will happen if the air film between the plane surface and the convex surface in Newton's ring experiment is replaced by a liquid with a higher refractive index?",
+        "qid": 5,
+        "option_a": "The interference pattern will disappear, and no rings will be observed",
+        "option_b": "The radius of the bright and dark rings will remain the same as in the air film.",
+        "option_c": "The interference pattern will change, and the radii of the bright and dark rings will be altered.",
+        "option_d": "The experiment will become invalid and cannot be performed with a liquid.",
+        "correct_option": "c"
+    }
+]
